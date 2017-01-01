@@ -1,3 +1,4 @@
 # Summary
 
-* [readme](README.md)
+* [前言](README.md)
+* [安装](install.md)
