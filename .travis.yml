@@ -4,7 +4,4 @@ node_js:
  branches:
   only:
   - master
-install:
- - "npm install gitbook -g"
- - "npm install -g gitbook-cli"
 script: bash ./deploy.sh
