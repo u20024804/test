@@ -8,8 +8,8 @@ gitbook build
 -mkdir -p pages
 -git clone https://github.com/ToutyRater/test.github.io.git pages
  
-rm -rf pages/*
-cp -r _book/* pages/
+#rm -rf pages/*
+cp -rf _book/* pages/
 
 cd pages
 git init
