@@ -4,9 +4,14 @@ npm install gitbook-cli -g
 gitbook init
 gitbook install
 gitbook build
+ 
+-mkdir -p pages
+-git clone https://github.com/ToutyRater/test.github.io.git pages
+ 
+rm -rf pages/*
+cp -r _book/* pages/
 
-cd _book
-
+cd pages
 git init
 git config user.name "Rater"
 git config user.email "ToutyRater@users.noreply.github.com"
