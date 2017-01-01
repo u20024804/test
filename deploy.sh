@@ -5,7 +5,6 @@ gitbook init
 gitbook install
 gitbook build
 
-
 mkdir -p pages
 git clone https://github.com/ToutyRater/test.github.io.git pages
 
