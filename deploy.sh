@@ -5,13 +5,8 @@ gitbook init
 gitbook install
 gitbook build
 
-mkdir -p pages
-git clone https://github.com/ToutyRater/test.github.io.git pages
+cd _book
 
-rm -rf pages/*
-cp _book/* pages
-
-cd pages
 git init
 git config user.name "Rater"
 git config user.email "ToutyRater@users.noreply.github.com"
